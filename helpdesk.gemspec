@@ -31,7 +31,9 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'compass'
   s.add_development_dependency 'email_spec'
 
-  s.add_dependency 'kaminari'
+  #s.add_dependency 'kaminari'
+  s.add_dependency 'will_paginate'
+  
   s.add_dependency 'jquery-ui-rails'
   s.add_dependency 'select2-rails'
   s.add_dependency 'rails_autolink'

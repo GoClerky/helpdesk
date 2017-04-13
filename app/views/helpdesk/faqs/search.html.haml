@@ -7,7 +7,7 @@
   %div.pageContainer
     - if params[:search]
       .alert.alert-info
-        = t('helpdesk.faqs.search_count', count: @faqs.total_count, query:params[:search])
+        = t('helpdesk.faqs.search_count', count: @faqs.count, query:params[:search])
 
     %h1
       = t('helpdesk.faqs.title_s')
