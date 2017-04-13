@@ -5,7 +5,7 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
-    =link_to Helpdesk.site_address, main_app.root_path, :class=>'navbar-brand', :title => Helpdesk.site_address
+    =link_to Helpdesk.site_address, main_app.root_path, :class=>'navbar-brand', :title => Helpdesk.site_address if Helpdesk.menu_items.include?('site_address')
     =link_to Helpdesk.helpdesk_name, root_path, :class=>'navbar-brand', :title => Helpdesk.helpdesk_name
   #bs-navbar-collapse-1.collapse.navbar-collapse.in
     %ul.nav.navbar-nav
